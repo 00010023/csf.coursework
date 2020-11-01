@@ -1,4 +1,4 @@
-from .intro import intro
+from .intro import main
 
 
 def launch():

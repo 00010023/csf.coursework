@@ -1,13 +1,4 @@
-import list
-import tuple
-import dictionary
-
-
-def main():
-    list.launch()
-    tuple.launch()
-    dictionary.launch()
-
+from handler import launcher
 
 if __name__ == '__main__':
-    main()
+    launcher()
