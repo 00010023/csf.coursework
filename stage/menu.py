@@ -2,7 +2,7 @@ import list
 import tuple
 import dictionary
 
-from .intro import separators
+from .decorator import separators
 
 menus: dict[int: str] = {
     1: "1. List Case",
