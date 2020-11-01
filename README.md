@@ -33,7 +33,7 @@ python main.py
 > own instance unless Genemator won't permit
 > [(this repository)](https://github.com/00010023/csf.coursework). If you're modifying this
 > source and making your own bot, you have to ask for permission from creator
-> "Genemator" according to the CC0-1.0 license. Check [LICENSE](license) for
+> "Genemator" according to the MPL-2.0 license. Check [LICENSE](license) for
 > more info.
 
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
