@@ -1,4 +1,4 @@
-from handler import launcher
+from stage import launcher
 
 if __name__ == '__main__':
     launcher()
