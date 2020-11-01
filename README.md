@@ -6,42 +6,38 @@
 
 <p align="center">Guided Tutor Application.</p>
 
-**This bot was built with [telegraf.js](https://github.com/telegraf/telegraf) in
-[Node.js](https://nodejs.org/en/). This bot works as package modular, so don't
-worry about adding your own customizations. It will not affect to the bot's
-working process. Just, don't forget to add your command to action's index and
-you're ready to go!**
+**This is a course work written by 00010023 for showcase! Please before starting the program,
+make sure that you installed all required programs in order to let the program work stable!!!**
 
-## Documentations
+## Steps 
 
--   **Telegraf.js** - [Github](https://github.com/telegraf/telegraf)
--   **Telegram Bot API** - [Website](https://core.telegram.org/bots/api)
+### (Automatic)
 
-## Example bots using Telegraf.js
+**Just run start-unix if you're linux or macos user or start-win if you're windows user. Make sure that
+you have python installed on your machine and added to PATH**
 
-There are tons of bots using Telegraf.js in their Telegram bot as:
+### (Manually)
 
--   [ChatAdmin](https://github.com/Khuzha/chatAdmin) by _Khuzha_ - Helps to
-    administer the chats
--   [BooksAndBot](https://github.com/dmtrbrl/BooksAndBot) by _dmtrbrl_ - An
-    inline bot that allows you to search for books and share them in a
-    conversation. Powered by Goodreads
--   [CaptchaOnlyBot](https://github.com/Piterden/captcha_only_bot) by
-    _Piterden_ - Configurable question \w set of buttons on a new group user
+```shell script
+pip install -r requirements.txt
+python main.py
+```
 
-> The bot page is still in beta phase so feel free to
-> [open issues](https://github.com/4bis1/senpai/issues/new) and give me some
+> The app is still in beta phase so feel free to
+> [open issues](https://github.com/00010023/csf.coursework/issues/new) and give me some
 > suggestions.
 
 ---
 
-> **Important Note:** Under the CC0-1.0 license, you are not allowed to run your
+> **Important Note:** Under the MPL-2.0 license, you are not allowed to run your
 > own instance unless Genemator won't permit
-> [(this repository)](https://github.com/4bis1/senpai). If you're modifying this
+> [(this repository)](https://github.com/00010023/csf.coursework). If you're modifying this
 > source and making your own bot, you have to ask for permission from creator
 > "Genemator" according to the CC0-1.0 license. Check [LICENSE](license) for
 > more info.
 
-<p align="center">Copyright &copy; 2020 <a href="http://4bis1.chisel.uz" target="_blank">4BIS1 => Genemator Sakhib</a></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
 
-<p align="center"><a href="https://github.com/4bis1/senpai/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=5412b8&colorB=cd11d4"/></a></p>
+<p align="center">Copyright &copy; 2020 <a href="https://github.com/00010023/" target="_blank">00010023</a></p>
+
+<p align="center"><a href="https://github.com/00010023/csf.coursework/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MPL-2.0&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
