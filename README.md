@@ -4,7 +4,7 @@
 
 <p align="center"> Course Work made by 000010023 for <a href="https://intranet.wiut.uz/UserModuleMaterials/SingleModuleView?moduleId=559&linkStatus=0" target="_blank">CSF</a>.</p>
 
-<p align="center">Guide for yourself or get information with <a href="https://t.me/senpai_chanbot" target="_blank">Senpai Assistant</a>.</p>
+<p align="center">Guided Tutor Application.</p>
 
 **This bot was built with [telegraf.js](https://github.com/telegraf/telegraf) in
 [Node.js](https://nodejs.org/en/). This bot works as package modular, so don't
