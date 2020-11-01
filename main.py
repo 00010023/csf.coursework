@@ -1,13 +1,13 @@
-from dictionary import *
-from list import *
-from tuple import *
+import list
+import tuple
+import dictionary
 
 
-def main(number):
-    return number + 2
-    pass
+def main():
+    list.launch()
+    tuple.launch()
+    dictionary.launch()
 
 
 if __name__ == '__main__':
-    main(2)
-    print("Hello World")
+    main()
