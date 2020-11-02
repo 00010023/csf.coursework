@@ -1,3 +1,7 @@
+"""
+Copyright to 000010023 by WIUT student
+"""
+
 from .decorator import separators, bye_text
 
 welcome_time: bool = True

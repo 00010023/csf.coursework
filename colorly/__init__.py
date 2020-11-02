@@ -1,3 +1,8 @@
+"""
+Copyright to 000010023 by WIUT student
+"""
+
+
 class Colorly:
     HEADER: str = '\033[95m'
     OKBLUE: str = '\033[94m'
@@ -20,4 +25,3 @@ def success(text: str):
 
 def warning(text: str):
     return Colorly.WARNING + text + Colorly.ENDC
-

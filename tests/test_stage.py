@@ -1,3 +1,7 @@
+"""
+Copyright to 000010023 by WIUT student
+"""
+
 from stage.intro import all_text
 from stage.menu import menus, select
 

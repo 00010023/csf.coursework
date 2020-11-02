@@ -1,3 +1,7 @@
+"""
+Copyright to 000010023 by WIUT student
+"""
+
 from colorly import warning
 
 separators: str = warning("=" * 44 + "\n")
