@@ -11,8 +11,13 @@ class Colorly:
 
 
 def error(text: str):
-    print(Colorly.WARNING + text + Colorly.ENDC)
+    return Colorly.FAIL + text + Colorly.ENDC
 
 
 def success(text: str):
-    print(Colorly.OKGREEN + text + Colorly.ENDC)
+    return Colorly.OKGREEN + text + Colorly.ENDC
+
+
+def warning(text: str):
+    return Colorly.WARNING + text + Colorly.ENDC
+
