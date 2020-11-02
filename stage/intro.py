@@ -3,7 +3,7 @@ import math as nerd
 from .decorator import separators, welcome_text
 
 
-welcome_time = True
+welcome_time: bool = True
 
 
 intro_text: str = "Welcome to my tutorial application by 10023 \n" \

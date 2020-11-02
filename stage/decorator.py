@@ -1,4 +1,6 @@
-separators: str = "=" * 44 + "\n"
+from colorly import warning
+
+separators: str = warning("=" * 44 + "\n")
 
 welcome_text: str = \
     """ _       __     __
@@ -8,7 +10,7 @@ welcome_text: str = \
 |__/|__/\\___/_/\\___/\\____/_/ /_/ /_/\\___/
 """
 
-bye_text = \
+bye_text: str = \
     """    ____                   __               __
    / __ )__  _____        / /_  __  _____  / /
   / __  / / / / _ \\______/ __ \\/ / / / _ \\/ /

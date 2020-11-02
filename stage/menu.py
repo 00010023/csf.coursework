@@ -3,6 +3,8 @@ import tuple
 import dictionary
 
 from .decorator import separators
+from colorly import warning
+from .ending import ending
 
 menus: dict[int: str] = {
     1: "1. List Case",
@@ -15,7 +17,7 @@ condition: dict[int: str] = {
     1: list.launcher,
     2: tuple.launcher,
     3: dictionary.launcher,
-    4: exit
+    4: ending
 }
 
 
@@ -36,5 +38,5 @@ def menu():
     print(separators)
     for choice in menus.values():
         print(choice)
-    print("\n" + "=" * 44)
+    print(warning("\n" + "=" * 44))
     input_choice()
