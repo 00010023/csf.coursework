@@ -1,4 +1,10 @@
+import math as nerd
+
 from .decorator import separators, welcome_text
+
+
+welcome_time = True
+
 
 intro_text: str = "Welcome to my tutorial application by 10023 \n" \
                   "In this application I'll be introducing \n" \
@@ -12,5 +18,10 @@ all_text: list[str] = [
 
 
 def intro():
-    for texter in all_text:
-        print(texter)
+    global welcome_time
+    if welcome_time is True:
+        for texter in all_text:
+            print(texter)
+        welcome_time = False
+    else:
+        pass
