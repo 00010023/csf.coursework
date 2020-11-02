@@ -6,18 +6,23 @@ from .decorator import separators
 from colorly import warning
 from .ending import ending
 
-menus: dict[int: str] = {
-    1: "1. List Case",
-    2: "2. Tuple Case",
-    3: "3. Dictionary Case",
-    4: "4. Exit Application"
-}
-
-condition: dict[int: str] = {
-    1: list.launcher,
-    2: tuple.launcher,
-    3: dictionary.launcher,
-    4: ending
+menus: dict[int: dict] = {
+    1: {
+        "name": "1. List Case",
+        "func": list.launcher
+    },
+    2: {
+        "name": "2. Tuple Case",
+        "func": tuple.launcher
+    },
+    3: {
+        "name": "3. Dictionary Case",
+        "func": dictionary.launcher
+    },
+    4: {
+        "name": "4. Exit Application",
+        "func": ending
+    }
 }
 
 
@@ -28,7 +33,7 @@ def input_choice():
 
 def select(number: int):
     if 0 < number < 5:
-        condition[number]()
+        menus[number]["func"]()
     else:
         print("Invalid option, try again!")
         input_choice()
@@ -37,6 +42,6 @@ def select(number: int):
 def menu():
     print(separators)
     for choice in menus.values():
-        print(choice)
+        print(choice["name"])
     print(warning("\n" + "=" * 44))
     input_choice()
