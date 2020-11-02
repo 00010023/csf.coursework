@@ -33,7 +33,7 @@ menus: dict[int: dict] = {
 def input_choice():
     selection = input("Choose your option from menu below: ")
     select(int(selection))
-    
+
 
 def select(number: int):
     if 0 < int(number) < 5:
