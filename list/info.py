@@ -9,7 +9,7 @@ Copyright to 000010023 by WIUT student
 example_list = ["green", 123456789, True, [], {}, ()]
 
 information = \
-f"""
+    f"""
 Lists on Python
 
 List is a type of Python Collection where it's ordered
@@ -26,5 +26,5 @@ list and let's see result...
 
 def info():
     print(information)
-    input("Continue?")
+    input("Continue? [Press Enter]")
     pass

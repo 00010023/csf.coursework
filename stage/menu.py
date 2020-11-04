@@ -7,7 +7,7 @@ import tuple
 import dictionary
 
 from .decorator import separators
-from colorly import warning
+from colorly import Colorly
 from .ending import ending
 
 menus: dict[int: dict] = {
@@ -32,14 +32,26 @@ menus: dict[int: dict] = {
 
 def input_choice():
     selection = input("Choose your option from menu below: ")
-    select(int(float(selection)))
+    try:
+        select(int(float(selection)))
+    except ValueError:
+        errored()
+    except Exception:
+        errored()
 
 
 def select(number: int):
     if 0 < number < 5:
         menus[number]["func"]()
     else:
+        errored()
+
+
+def errored(isFailed=True):
+    if isFailed:
         print("Invalid option, try again!")
+        input_choice()
+    else:
         input_choice()
 
 
@@ -47,5 +59,5 @@ def menu():
     print(separators)
     for choice in menus.values():
         print(choice["name"])
-    print(warning("\n" + "=" * 44))
-    input_choice()
+    print(Colorly.warning("\n" + "=" * 44))
+    errored(False)

@@ -2,9 +2,9 @@
 Copyright to 000010023 by WIUT student
 """
 
-from colorly import warning
+from colorly import Colorly
 
-separators: str = warning("=" * 44 + "\n")
+separators: str = Colorly.warning("=" * 44 + "\n")
 
 welcome_text: str = \
     """ _       __     __
