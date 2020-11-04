@@ -2,9 +2,9 @@
 Copyright to 000010023 by WIUT student
 """
 
-from .intro import main
+from .info import info
 
 
 def launcher():
-    print("List")
+    info()
     pass
