@@ -16,4 +16,3 @@ def test_menu_stage():
         assert type(obj) == dict
         for key in obj.keys():
             assert type(key) == int
-    assert select(1) == print()
