@@ -17,6 +17,9 @@ class Colorly:
     def __init__(self, text):
         self.text = text
 
+    def bold(self):
+        return self.BOLD + self.text + self.ENDC
+
     def error(self):
         return self.FAIL + self.text + self.ENDC
 

@@ -31,7 +31,8 @@ menus: dict[int: dict] = {
 
 
 def input_choice():
-    selection = input("Choose your option from menu below: ")
+    bolded = Colorly("Choose your option from menu below: ")
+    selection = input(bolded.bold())
     try:
         select(int(float(selection)))
     except ValueError:
@@ -50,13 +51,15 @@ def select(number: int):
 def errored(isFailed=True):
     if isFailed:
         print("Invalid option, try again!")
+        menu()
         input_choice()
     else:
         input_choice()
 
 
 def menu():
-    print(separators)
+    colored: Colorly = Colorly(text="=" * 44)
+    print(Colorly.warning(colored))
     for choice in menus.values():
         print(choice["name"])
     colored: Colorly = Colorly(text="=" * 44)
