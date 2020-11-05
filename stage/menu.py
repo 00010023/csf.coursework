@@ -59,5 +59,6 @@ def menu():
     print(separators)
     for choice in menus.values():
         print(choice["name"])
-    print(Colorly.warning("\n" + "=" * 44))
+    colored: Colorly = Colorly(text="=" * 44)
+    print(Colorly.warning(colored))
     errored(False)

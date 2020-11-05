@@ -14,11 +14,14 @@ class Colorly:
     BOLD: str = '\033[1m'
     UNDERLINE: str = '\033[4m'
 
-    def error(self: str):
-        return Colorly.FAIL + self + Colorly.ENDC
+    def __init__(self, text):
+        self.text = text
 
-    def success(self: str):
-        return Colorly.OKGREEN + self + Colorly.ENDC
+    def error(self):
+        return self.FAIL + self.text + self.ENDC
 
-    def warning(self: str):
-        return Colorly.WARNING + self + Colorly.ENDC
+    def success(self):
+        return self.OKGREEN + self.text + self.ENDC
+
+    def warning(self):
+        return self.WARNING + self.text + self.ENDC

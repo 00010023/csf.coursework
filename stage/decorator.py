@@ -4,7 +4,9 @@ Copyright to 000010023 by WIUT student
 
 from colorly import Colorly
 
-separators: str = Colorly.warning("=" * 44 + "\n")
+colored: Colorly = Colorly(text="=" * 44 + "\n")
+
+separators: Colorly = Colorly.warning(colored)
 
 welcome_text: str = \
     """ _       __     __
