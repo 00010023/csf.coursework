@@ -8,7 +8,7 @@ Copyright to 000010023 by WIUT student
 """
 example_list = ["green", 123456789, True, [], {}, ()]
 
-information = \
+information1 = \
     f"""
 Lists on Python
 
@@ -20,11 +20,14 @@ numbers, another lists, tuples & dictionaries...
 Let me show an example:
 I'd like to assign "example = ["green", 123456789, True, [], ()]"
 list and let's see result...
+
+OUTPUT
+============
 {example_list}
 """
 
 
 def info():
-    print(information)
+    print(information1)
     input("Continue? [Press Enter]")
     pass
