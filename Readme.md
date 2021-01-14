@@ -13,7 +13,7 @@ make sure that you installed all required programs in order to let the program w
 
 **You might wonder that main branch is empty. The reason why I cleaned the main branch is that, as the perfectionist developer
 I prefer working way more clean and properly. So, I created yet another 2 branches as "exam" (as it was instructed by
-coursework requirements) and "classtest" (where I keep files of my first semester's coursework).
+coursework requirements) and "classtest" (where I keep files of my first semester's coursework).**
 
 #### In order to enter one of those branches, follow the link provided below:
 
