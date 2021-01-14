@@ -9,5 +9,6 @@ from stage import launcher
 
 
 if __name__ == '__main__':
-    while True:
-        launcher()
+    pass
+    # while True:
+    #     launcher()
