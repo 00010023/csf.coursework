@@ -1,4 +1,4 @@
-<h2 align="center">Computer Science Fundamentals Course Workd</h2>
+<h2 align="center">Computer Science Fundamentals Course Work</h2>
 
 <p align="center"><a href="https://github.com/00010023/csf.coursework/actions"><img src="https://github.com/00010023/csf.coursework/workflows/Python%20Application%20%7C%20Test%20CI/badge.svg?branch=main"/></a></p>
 
