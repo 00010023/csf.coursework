@@ -47,6 +47,10 @@ class Calculator:
     def is_greater_or_not(self):
         if self.first_number > self.second_number:
             print(f"The number {self.first_number} is greater than {self.second_number}")
+        elif self.first_number < self.second_number:
+            print(f"The number {self.first_number} is less than {self.second_number}")
+        elif self.first_number == self.second_number:
+            print(f"The number {self.first_number} is equal to {self.second_number}")
 
 
 if __name__ == '__main__':
@@ -55,6 +59,9 @@ if __name__ == '__main__':
         # Class usage
         process = Calculator(a, b)
         process.addition()
+        process.subtraction()
+        process.multiplication()
+        process.is_greater_or_not()
 
         # Function usage
         calculator(a, b, "+")
