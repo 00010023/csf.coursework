@@ -11,7 +11,7 @@ b = 10
 
 def exampleReturn(first_number, second_number):  # <- can take argument
     result = first_number + second_number  # <- has ability to initiate inline variable
-    return result  # <- return a specific value, so it can be passed as argument on anothr function
+    return result  # <- return a specific value, so it can be passed as argument on another function
     pass  # <- ending function here
 
 
