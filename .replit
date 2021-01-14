@@ -1,2 +1,2 @@
-run = "python main.py"
+run = "python task9.py"
 language = "python3"

@@ -22,5 +22,8 @@ def exampleVoid(first_number, second_number):  # <- can take argument
 
 
 if __name__ == '__main__':
-    exampleVoid(exampleReturn(a, b), b)
+    try:
+        exampleVoid(exampleReturn(a, b), b)
+    except Exception as error:
+        print(f"Error occurred: {error}")
     pass

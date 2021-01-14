@@ -8,4 +8,4 @@ python -m pip install --upgrade pip
 if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
 printf "======= RUNNING APP  ========"
-python main.py
+python task9.py
