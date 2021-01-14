@@ -9,6 +9,17 @@
 **This is a course work written by 00010023 for showcase! Please before starting the program,
 make sure that you installed all required programs in order to let the program work stable!!!**
 
+## Precautions
+
+**You might wonder that main branch is empty. The reason why I cleaned the main branch is that, as the perfectionist developer
+I prefer working way more clean and properly. So, I created yet another 2 branches as "exam" (as it was instructed by
+coursework requirements) and "classtest" (where I keep files of my first semester's coursework).
+
+#### In order to enter one of those branches, follow the link provided below:
+
+- [Exam Branch](https://github.com/00010023/csf.coursework/tree/exam)
+- [Classtest Branch](https://github.com/00010023/csf.coursework/tree/classtest)
+
 ## Steps 
 
 ### (Automatic)
